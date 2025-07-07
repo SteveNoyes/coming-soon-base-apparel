@@ -2,32 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./assets/css/reset.css">  
+  <link rel="stylesheet" href="./assets/css/app.css">
+  <title>Base Apparel coming soon page</title>
 </head>
 <body>
-
-  We're coming soon
-
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+  <div class="landing-page-wrapper">
+    <img class="header-logo" src="./assets/images/logo.svg" alt="Base Apparel Logo">
+    <img class="hero-img" src="./assets/images/hero-mobile.jpg" alt="Hero Image">
+    <h1><span>We're</span> coming soon</h1>
+    <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+    <input type="text" placeholder="Email Address">
+    <button type="submit">
+      <img src="./assets/images/icon-arrow.svg" alt="Arrow Icon">
+    </button>
+  </div>
+  <script src="./assets/js/app.js"></script>
 </body>
 </html>
