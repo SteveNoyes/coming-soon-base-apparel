@@ -213,6 +213,18 @@ input {
   max-width: 280px;
   position: relative;
   left: 24px;
+  color: black;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid var(--desaturated-red);
+  outline: none;
+}
+
+input:active {
+  border: 1px solid var(--desaturated-red);
+  outline: none;
 }
 
 input::placeholder {
@@ -229,5 +241,22 @@ button {
   border: none;
   background: linear-gradient(to right, var(--second-start), var(--second-end) 90%);
   box-shadow: 3px 3px 15px var(--desaturated-red);
+}
+
+.arrow-icon {
+  margin-left: 5px;
+}
+
+.error-icon {
+  position: absolute;
+  right: 80px;
+  display: none;
+}
+
+.error-message {
+  color: var(--soft-red) !important;
+  margin-top: 10px;
+  margin-right: 80px;
+  display: none;
 }
 
