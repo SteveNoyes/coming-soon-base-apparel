@@ -254,6 +254,12 @@ button {
   border: none;
   background: linear-gradient(to right, var(--second-start), var(--second-end) 90%);
   box-shadow: 3px 3px 15px var(--desaturated-red);
+  ransition: all .2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .arrow-icon {
@@ -271,6 +277,12 @@ button {
   margin-top: 10px;
   margin-right: 110px;
   display: none;
+}
+
+#success-message {
+  color: var(--desaturated-red);
+  display: none;
+  margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 1460px) {
