@@ -11,15 +11,37 @@
 <body>
   <div class="landing-page-wrapper">
     <img class="header-logo" src="./assets/images/logo.svg" alt="Base Apparel Logo">
-    <img class="hero-img" src="./assets/images/hero-mobile.jpg" alt="Hero Image">
-    <h1><span>We're</span><br> coming<br> soon</h1>
-    <p>Hello fellow shoppers! We're currently building<br class="mobile-line-break"> our new fashion store. Add your email below to<br class="mobile-line-break"> stay up-to-date with announcements and our<br class="mobile-line-break"> launch deals.</p>
-    <input type="text" placeholder="Email Address">
-    <button type="submit">
-      <img class="error-icon" src="./assets/images/icon-error.svg" alt="Error Icon">
-      <img class="arrow-icon" src="./assets/images/icon-arrow.svg" alt="Arrow Icon">
-    </button>
-    <p class="error-message">Please provide a valid email</p>
+    <div class="content-wrapper">
+      <div class="hero-image-wrapper">
+        <img class="hero-img" src="./assets/images/hero-mobile.jpg" alt="Hero Image">
+        <img class="desktop-hero-img" src="./assets/images/hero-desktop.jpg" alt="Hero Image">
+      </div>
+      <div class="desktop-wrapper">
+        <img class="desktop-header-logo" src="./assets/images/logo.svg" alt="Base Apparel Logo">
+        <h1><span>We're</span><br> coming<br> soon</h1>
+        <p>Hello fellow shoppers! We're currently building<br class="mobile-line-break"> our new<br class="desktop-line-break"> fashion store. Add your email below to<br class="mobile-line-break"> stay up-to-date with<br class="desktop-line-break"> announcements and our<br class="mobile-line-break"> launch deals.</p>
+
+
+
+
+        <form id="myForm" action="" method="">
+          <input id="emailInput" type="text" placeholder="Email Address">
+          <button type="submit" id="submitButton">
+            <img id="errorIcon" class="error-icon" src="./assets/images/icon-error.svg" alt="Error Icon">
+            <img class="arrow-icon" src="./assets/images/icon-arrow.svg" alt="Arrow Icon">
+        </button>
+      </form>
+
+
+
+
+
+        
+        
+        
+        <p id="errorMessage" class="error-message">Please provide a valid email</p>
+      </div>
+    </div>
   </div>
   <script src="./assets/js/app.js"></script>
 </body>
